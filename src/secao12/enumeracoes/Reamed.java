@@ -9,7 +9,7 @@ package secao12.enumeracoes;
  *
  * @author robson-pc
  */
-public class Reamed {
+public class Readme {
     //Checklist
     /*
     Define / discussão
