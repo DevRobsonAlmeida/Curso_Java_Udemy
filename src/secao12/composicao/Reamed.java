@@ -9,7 +9,7 @@ package secao12.composicao;
  *
  * @author robson-pc
  */
-public class Reamed {
+public class Readme {
     /**
      *  Composição
      * 
