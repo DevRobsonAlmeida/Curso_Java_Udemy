@@ -3,20 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package secao12;
+package secao12.composicao.execicio.entites.enums;
 
 /**
  *
  * @author robson-pc
  */
-public class infor {
-    
-    //Checklist
-    /*
-    Define / discussão
-    Exemplo: estados de um pedido
-    Conversão de string para enum
-    Representação UML
-    */
-    
+public enum WorkerLevel {
+    JUNIOR,
+    MID_LEVEL,
+    SENIOR;
 }
