@@ -5,7 +5,7 @@
  */
 package secao13.heranca.application;
 
-import secao13.entites.BusinessAccount;
+import secao13.polimorfismo.abstractType.classes.entites.BusinessAccount;
 
 /**
  *

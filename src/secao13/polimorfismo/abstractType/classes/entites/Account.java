@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package secao13.entites;
+package secao13.polimorfismo.abstractType.classes.entites;
 
 /**
  *
  * @author 99030499
  */
-public class Account {
+public abstract class Account {
     private Integer number;
     private String holder;
     protected Double balance;

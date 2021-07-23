@@ -3,7 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package secao13.entites;
+package secao13.polimorfismo.abstractType.classes.entites;
+
+import secao13.polimorfismo.abstractType.classes.entites.Account;
+import secao13.polimorfismo.abstractType.classes.entites.Account;
 
 /**
  *
@@ -21,7 +24,7 @@ public class BusinessAccount extends Account {
         this.loanLimit = loanLimit;
     }
 
-    public BusinessAccount(Double loanLimit, Integer number, String holder, Double balance) {
+    public BusinessAccount(Integer number, String holder, Double balance, Double loanLimit) {
         super(number, holder, balance);
         this.loanLimit = loanLimit;
     }

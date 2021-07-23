@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package secao13.heranca;
+package secao13;
 
 /**
  *
@@ -40,6 +40,21 @@ public class Readme {
      *      Facilita a leitura e compreensão do código
      *      Avisamos ao compilador(boa prática)
      * 
+     * 
+     *     
+     *  > Checklist
+     * 
+     *  - Upcasting
+     *      Casting da subclasse para superclasse
+     *      Uso comum: polimorfismo
+     * 
+     *  - Downcasting
+     *      Casting da superclasse para subclasse
+     *      Palavra instanceof
+     *      Uso comum: métodos que recebem parâmetros genéricos(ex: Equals)
+ 
+     * 
+     * 
      *  > Classe e métodos final
      * 
      *  - Palavra cheve: final
@@ -56,6 +71,38 @@ public class Readme {
      *  - Performance: atributos de tipo deuma classe finla são analisado 
      *                 de forma mais rápida em tempo de execeção.
      *      Exempllo clássico: String
+     * 
+     *  
+     * 
+     * 
+     *  > Polimorfismo
+     *      Em Programação Orientada a Objeto, polimorfismo é recurso que 
+     *      permite que variáveis de um mesmo tipo mais genérico possam
+     *      apontar para objetos de tipos específicos diferentes, tendo
+     *      assim comportamento diferente conforme cada tipo específico.
+     * 
+     *      Importante entender
+     *       - A associação do tipo específico com o tipo genérico é feita em tempo de execução(upcasting)
+     *       - O compolador não sabe para qual feita (ele só sabe que são duas veriáveis tipos Account):
+     * 
+     * 
+     *  > Abstratas
+     *      - Classes
+     *          São Classes que não podem ser instanciadas
+     * 
+     *          É uma forma de gatantir herança total: somente subclasses não abstratas 
+     *          podem ser instanciadas, mas nunca a superclasse abstrata
+     *      
+     *      - Modulos
+     *          São métodos que não possuem implementação
+     *         
+     *          Métodos precisam ser abstratos quenaod a classe é generica
+     *          demais para conter sua implementação
+     * 
+     *          Se uma classe possuor pelos menos um método abstrato, 
+     *          então esta classe também é abstrata
+     *      
+     * 
      * 
      */
 }

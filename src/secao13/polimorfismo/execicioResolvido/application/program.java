@@ -53,7 +53,7 @@ public class program {
                 Double addCharge = sc.nextDouble();
                 e = new OutsourcedEmployee(name, hour, vph, addCharge);
             }else{
-                e = new OutsourcedEmployee(name, hour, vph);
+                e = new Employee(name, hour, vph);
             }
             emp.add(e);
             
@@ -61,7 +61,7 @@ public class program {
         
         System.out.println("PAYMENT:"); 
         for (Employee employee : emp) {
-            System.out.println(employee.getName() + " - " + employee.payment());
+            System.out.println(employee.getName() + " - $ " + String.format("%.2f", employee.payment()));
         }
         
     }

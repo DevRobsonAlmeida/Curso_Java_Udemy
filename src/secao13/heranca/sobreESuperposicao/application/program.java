@@ -5,9 +5,9 @@
  */
 package secao13.heranca.sobreESuperposicao.application;
 
-import secao13.entites.Account;
-import secao13.entites.BusinessAccount;
-import secao13.entites.SavingAccount;
+import secao13.heranca.entites.Account;
+import secao13.heranca.entites.BusinessAccount;
+import secao13.heranca.entites.SavingAccount;
 
 /**
  *
@@ -23,7 +23,7 @@ public class program {
         acc2.withdraw(200);
         System.out.println(acc2.getBalance());
         
-        Account acc3 = new BusinessAccount(500.0, 1003, "Bob", 1000.0);
+        Account acc3 = new BusinessAccount(1003, "Bob", 1000.0, 500.0);
         acc3.withdraw(200);
         System.out.println(acc3.getBalance());
     }

@@ -3,7 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package secao13.entites;
+package secao13.polimorfismo.abstractType.classes.entites;
+
+import secao13.polimorfismo.abstractType.classes.entites.Account;
+import secao13.polimorfismo.abstractType.classes.entites.Account;
 
 /**
  *

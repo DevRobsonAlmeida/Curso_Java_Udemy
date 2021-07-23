@@ -5,9 +5,9 @@
  */
 package secao13.polimorfismo.aplication;
 
-import secao13.entites.Account;
-import secao13.entites.BusinessAccount;
-import secao13.entites.SavingAccount;
+import secao13.heranca.entites.Account;
+import secao13.heranca.entites.BusinessAccount;
+import secao13.heranca.entites.SavingAccount;
 
 /**
  *
