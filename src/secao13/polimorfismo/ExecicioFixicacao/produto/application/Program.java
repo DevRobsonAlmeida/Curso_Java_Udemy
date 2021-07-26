@@ -20,7 +20,7 @@ import secao13.polimorfismo.ExecicioFixicacao.produto.entites.UsedProduct;
  *
  * @author 99030499
  */
-public class program {
+public class Program {
 
     public static void main(String[] args) throws ParseException {
         Locale.setDefault(Locale.US);

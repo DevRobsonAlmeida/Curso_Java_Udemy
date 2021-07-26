@@ -17,7 +17,7 @@ import secao12.composicao.exercicio2.entites.Post;
  *
  * @author robson-pc
  */
-public class program {
+public class Program {
     public static void main(String[] args) throws ParseException {
         
         Locale.setDefault(Locale.US);

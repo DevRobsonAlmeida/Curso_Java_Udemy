@@ -13,7 +13,7 @@ import secao13.heranca.entites.SavingAccount;
  *
  * @author 99030499
  */
-public class program {
+public class Program {
 
     public static void main(String[] args) {
 

@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
  *
  * @author Robson
  */
-public class program {
+public class Program {
     /** - DEMO - 
      *  Tamanho da lista: size()
      *  Inserir elemento na lista:add(obg), add(int, obj)

@@ -19,7 +19,7 @@ import secao12.composicao.execicio.entites.enums.WorkerLevel;
  *
  * @author robson-pc
  */
-public class program {
+public class Program {
     public static void main(String[] args) throws ParseException{
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);

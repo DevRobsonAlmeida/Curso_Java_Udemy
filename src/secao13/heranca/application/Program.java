@@ -11,7 +11,7 @@ import secao13.polimorfismo.abstractType.classes.entites.BusinessAccount;
  *
  * @author 99030499
  */
-public class program {
+public class Program {
     public static void main(String[] args){
         
         BusinessAccount account = new BusinessAccount();

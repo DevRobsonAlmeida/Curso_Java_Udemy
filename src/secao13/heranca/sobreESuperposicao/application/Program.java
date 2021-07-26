@@ -13,7 +13,7 @@ import secao13.heranca.entites.SavingAccount;
  *
  * @author 99030499
  */
-public class program {
+public class Program {
     public static void main(String[] args) {
         Account acc1 = new Account(1001, "Alex", 1000.0);
         acc1.withdraw(200);

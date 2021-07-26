@@ -14,7 +14,7 @@ import secao13.heranca.entites.SavingAccount;
  *
  * @author 99030499
  */
-public class program {
+public class Program {
     public static void main(String[] args) {
         Account acc = new Account(1001, "Alex", 0.0);
         BusinessAccount bcc =  new BusinessAccount( 1002,"Maria", 0.0, 500.0);

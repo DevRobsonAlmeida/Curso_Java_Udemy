@@ -15,7 +15,7 @@ import secao13.polimorfismo.execicioResolvido.entites.OutsourcedEmployee;
  *
  * @author 99030499
  */
-public class program {
+public class Program {
     /**.
      *  Um empresa possui funcionários próprios e terceirizados.
      *  Para cda funcionário, deseja-se registrar nome, horas trabalhadas e valor por hora.

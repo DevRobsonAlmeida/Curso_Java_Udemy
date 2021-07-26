@@ -9,7 +9,7 @@ package secao10.LacoForEach;
  *
  * @author Robson
  */
-public class program {
+public class Program {
     public static void main(String[] args) {
         //For each
         // É um sintaxe opcional e simplificada para percorrer coleções

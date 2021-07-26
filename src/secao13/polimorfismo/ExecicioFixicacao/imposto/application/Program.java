@@ -16,7 +16,7 @@ import secao13.polimorfismo.ExecicioFixicacao.imposto.entites.TexPayer;
  *
  * @author robson-pc
  */
-public class program {
+public class Program {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

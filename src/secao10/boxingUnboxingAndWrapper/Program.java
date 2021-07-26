@@ -9,7 +9,7 @@ package secao10.boxingUnboxingAndWrapper;
  *
  * @author Robson
  */
-public class program {
+public class Program {
     // Boxing
     // É a conversão de um objeto tipo valor para um objeto tipo referência compatível.
     
