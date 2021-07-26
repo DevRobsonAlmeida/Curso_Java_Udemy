@@ -5,7 +5,7 @@
  */
 package secao13.polimorfismo.abstractType.modulos.entites;
 
-import java.awt.Color;
+import secao13.polimorfismo.abstractType.modulos.entites.emuns.Color;
 
 /**
  *
@@ -23,6 +23,11 @@ public class Rectangle extends Shape{
         this.height = height;
     }    
     
+        @Override
+    public double getArea() {
+        return width * height;
+    }
+    
     public Double getWidth() {
         return width;
     }
@@ -37,8 +42,6 @@ public class Rectangle extends Shape{
 
     public void setHeight(Double height) {
         this.height = height;
-    }
-
-    
+    }    
     
 }

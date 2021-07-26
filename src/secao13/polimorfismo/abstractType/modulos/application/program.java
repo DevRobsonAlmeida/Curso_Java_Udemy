@@ -5,7 +5,7 @@
  */
 package secao13.polimorfismo.abstractType.modulos.application;
 
-import java.awt.Color;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -13,6 +13,7 @@ import java.util.Scanner;
 import secao13.polimorfismo.abstractType.modulos.entites.Circle;
 import secao13.polimorfismo.abstractType.modulos.entites.Rectangle;
 import secao13.polimorfismo.abstractType.modulos.entites.Shape;
+import secao13.polimorfismo.abstractType.modulos.entites.emuns.Color;
 
 /**
  *
@@ -36,22 +37,22 @@ public class program {
             System.out.print("Reactangle or Circle (r/c)");
             char letra = sc.next().charAt(0);
             System.out.print("Color (BLACK/ BLUE/ RED): ");
-            String color = sc.next();
+            Color color = Color.valueOf(sc.next());
             if (letra == 'r') {
                 System.out.print("Width: ");
                 Double Width = sc.nextDouble();
                 System.out.print("Height: ");
                 Double Height = sc.nextDouble();
-                s = new Rectangle(Color.yellow, Width, Height);
+                s = new Rectangle(color, Width, Height);
             } else {
                 System.out.println("Radius: ");
                 Double radius = sc.nextDouble();
-                s = new Circle(Color.yellow, radius);
+                s = new Circle(color, radius);
             }
             list.add(s);
             
             for (Shape shape : list) {
-                System.out.println(shape.area());
+                System.out.println(shape.getArea());
             }
 
         }

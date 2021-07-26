@@ -22,9 +22,7 @@ public abstract class Shape {
         this.color = color;
     }
     
-    public double getArea() {
-        return 0;
-    }
+    public abstract double getArea();
 
     public Color getColor() {
         return color;

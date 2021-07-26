@@ -5,7 +5,7 @@
  */
 package secao13.polimorfismo.abstractType.modulos.entites;
 
-import java.awt.Color;
+import secao13.polimorfismo.abstractType.modulos.entites.emuns.Color;
 
 /**
  *
@@ -22,7 +22,12 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
-    public  Double getRadius() {
+    @Override
+    public double getArea() {
+        return Math.PI * radius * radius;
+    }
+
+    public Double getRadius() {
         return radius;
     }
 

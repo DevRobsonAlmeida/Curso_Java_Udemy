@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package secao13.polimorfismo.ExecicioFixicacao.application;
+package secao13.polimorfismo.ExecicioFixicacao.produto.application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -12,9 +12,9 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
-import secao13.polimorfismo.ExecicioFixicacao.entites.ImportedProduct;
-import secao13.polimorfismo.ExecicioFixicacao.entites.Product;
-import secao13.polimorfismo.ExecicioFixicacao.entites.UsedProduct;
+import secao13.polimorfismo.ExecicioFixicacao.produto.entites.ImportedProduct;
+import secao13.polimorfismo.ExecicioFixicacao.produto.entites.Product;
+import secao13.polimorfismo.ExecicioFixicacao.produto.entites.UsedProduct;
 
 /**
  *
